@@ -52,7 +52,7 @@ export class ScatterService {
   transfer(to: string, amount: number, memo: string = '', successCallback, errorCallback) {
     let that = this;
     this.login(function () {
-        that.eos.transfer(that.identity.accounts[0].name, to, (amount).toString() + ' EOS', memo, []).then(transaction => {
+        that.eos.transfer(that.identity.accounts[0].name, to, (amount).toString() + ' VEST', memo, []).then(transaction => {
           successCallback(transaction);
         }).catch(error => {
           errorCallback(error);

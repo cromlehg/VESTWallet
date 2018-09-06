@@ -1,13 +1,13 @@
-💎 EOS Wallet
+💎VEST Wallet
 ========================
 
-EOS Wallet is a Frontend based on Angular4 that connects to EOS Tracker API.
+VEST Wallet is a Frontend based on Angular4 that connects to VEST Tracker API.
 
 📌 Getting Started
 ------------
 
-- `git clone https://github.com/EOSEssentials/EOSWallet.git`
-- `cd EOSWallet`
+- `git clone https://github.com/cromlehg/VESTWallet.git`
+- `cd VESTWallet`
 - `npm install`
   
 📌 Development server

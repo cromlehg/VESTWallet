@@ -10,7 +10,7 @@ declare let ga: Function;
 })
 
 export class AppComponent {
-  title = 'WalletEOS | EOS Wallet';
+  title = 'WalletVEST | VEST Wallet';
 
   constructor(public router: Router) {
     this.router.events.subscribe(event => {

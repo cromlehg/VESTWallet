@@ -22,7 +22,7 @@ export class ScatterService {
       blockchain:'eos',
       host: environment.eosHost,
       port:environment.eosPort,
-      chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+      chainId:'8449f44ce9ba91e7b3da01900a6c6e49cd8466ceb43352f0902f6934dbfc9f4a'
     };
     this.eos = this.scatter.eos(this.network, Eos, {}, environment.eosProtocol);
   }
